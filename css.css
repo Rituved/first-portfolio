@@ -334,6 +334,7 @@ i {
     background-color: #000000;
     color: #fff;
     font-size: larger;
+    padding: 0 55px;
 }
 
 .input_list textarea:hover {
@@ -455,13 +456,16 @@ textarea {
 
     .input_list input {
 
-        padding-right: 12rem;
+        padding-right: 8rem;
 
     }
 
     textarea {
         padding: 0;
 
+    }
+    .input_list textarea {
+        padding: 0;
     }
 
     .img {
