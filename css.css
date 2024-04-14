@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #000000;
+    --second-bg-color: #161616;
+    --text-color: #fff;
+    --main-color: #7b4bb7;
+}
+
+body {
+    width: 100%;
+    background: var(--bg-color);
+}
+
+.logo {
+    color: rgb(214, 39, 30);
+    font-size: 2.5rem;
+    margin-right: 50px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.568);
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav i {
+    visibility: hidden;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 50px;
+    font-size: 1.5rem;
+
+}
+
+nav li {
+    padding-top: 8px;
+    margin-left: 25px;
+    list-style: none;
+}
+
+nav li:hover {
+    border-bottom: 3px solid rgb(214, 39, 30);
+}
+
+.a_red {
+
+    border-bottom: 3px solid rgb(214, 39, 30);
+
+}
+
+header {
+    border-bottom: 1px solid white;
+}
+
+/* main_start */
+.index_page_container {
+    width: 80vw;
+    margin: auto;
+    /* background-color: green; */
+}
+
+.img {
+    width: 40vw;
+    float: left;
+    margin-left: 50px;
+}
+
+.index_text {
+    width: 40vw;
+    float: right;
+    clear: both;
+}
+
+.img img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: 0px 0 9px 6px rgba(194, 16, 16, 0.678);
+}
+
+.index_wapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .index_wapper .img{
+    float: left;
+} */
+.index_text h1,
+h3 {
+    color: #fff;
+}
+
+.index_text h1 {
+    font-size: 2.9rem;
+}
+
+.index_text h3 {
+    font-size: 2rem;
+}
+
+.index_text .red_text {
+    color: rgb(214, 39, 30);
+}
+
+.business {
+    color: rgb(214, 39, 30);
+}
+
+.index_text p {
+    color: white;
+    font-size: larger;
+}
+
+.index_text p {
+    line-height: 1.5rem;
+}
+
+.index_text button {
+    border-color: rgb(240, 61, 48);
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 6px 25px;
+    margin-top: 25px;
+    color: rgb(240, 61, 48);
+}
+
+.index_text button:hover {
+    color: black;
+    box-shadow: 0px 0px 10px rgb(230, 0, 0);
+    background-color: rgb(240, 61, 48);
+}
+
+.socialMedia_icon i {
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    font-size: 22px;
+    color: rgb(240, 61, 48);
+    margin-top: 30px;
+    /* margin-left: 20px; */
+    padding: 9px;
+    border: 1px solid rgb(240, 61, 48);
+}
+
+i {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+/* main_end */
+/* service start */
+.services_container {
+    margin-top: 50px;
+}
+
+.services_container h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.services_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services_one {
+    border: 1px solid rgb(240, 61, 48);
+    color: rgb(240, 61, 48);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 40px;
+}
+
+.services_one:hover {
+    color: white;
+    background-color: rgb(240, 61, 48);
+}
+
+.services_one h4 {
+    font-size: larger;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* service end */
+
+/* skills start */
+.skills_wapper h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container_of_skill {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 72%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-left: 10px;
+    background-color: rgba(255, 32, 2, 0.801);
+}
+
+.container_one,
+.container_two {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one {
+    transform: scale(1.08);
+    border-radius: 10px;
+    color: rgb(214, 39, 30);
+    margin: 15px 12px;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 0 15px;
+}
+
+.one img {
+    border-radius: 10px;
+}
+
+.one p {
+    margin-bottom: 10px;
+}
+
+/* skills end */
+/* education start */
+.edu_title h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.edu_title span {
+    color: rgb(214, 39, 30);
+}
+
+.wapper_ed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wapper_ed .right {
+    border-left: 2px rgb(82, 85, 83) solid;
+}
+
+.High_school {
+    margin: 80px 25px 0;
+    background-color: rgb(214, 39, 30);
+    border: 1px solid rgb(214, 39, 30);
+    padding: 10px 40px 10px 15px;
+    border-radius: 6px;
+}
+
+/* education end */
+/* contact start */
+.contact_title h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.contact_title span {
+    color: rgb(214, 39, 30);
+}
+
+.contact_wapper input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_list input {
+    margin: 0 auto;
+    border: 2px solid rgb(214, 39, 30);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 15rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.input_list input:hover {
+    background-color: white;
+    border-color: rgb(214, 39, 30);
+    color: #000000;
+}
+
+.one_input {
+    margin: 10px;
+}
+
+.input_list textarea {
+    border: 2px solid rgb(214, 39, 30);
+    background-color: #000000;
+    color: #fff;
+    font-size: larger;
+}
+
+.input_list textarea:hover {
+    background-color: white;
+    border-color: rgb(214, 39, 30);
+    color: #000000;
+}
+
+.input_list {
+    text-align: center;
+}
+
+.sent_massage {
+    border-color: rgb(240, 61, 48);
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 6px 25px;
+    margin-top: 25px;
+    color: rgb(240, 61, 48);
+
+}
+
+.sent_massage:hover {
+    color: black;
+    box-shadow: 0px 0px 10px rgb(230, 0, 0);
+    background-color: rgb(240, 61, 48);
+}
+
+/* contact end */
+/* footer start */
+footer {
+    background-color: rgb(240, 61, 48);
+    margin-top: 50px;
+
+}
+
+.socialMedia_icon2 i {
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    font-size: 22px;
+    color: rgb(240, 61, 48);
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 9px;
+    border: 1px solid rgb(240, 61, 48);
+}
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_ab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 30px;
+
+}
+
+textarea {
+    padding: 0 32px;
+    border-radius: 10px;
+}
+
+.footer_ab p {
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+/* footer end */
+/********** media query start **********/
+
+@media only screen and (max-width: 466px) {
+    nav ul {
+        visibility: hidden;
+
+    }
+
+    .logo {
+        margin-left: 50px;
+        color: rebeccapurple;
+    }
+
+    nav i {
+        visibility: visible;
+        color: white;
+        font-size: 2rem;
+        float: right;
+    }
+
+    .index_wapper .img img {
+        width: 75vw;
+        margin-left: 5%;
+    }
+
+    .index_text {
+        visibility: hidden;
+    }
+
+    .index_text {
+        visibility: visible;
+
+    }
+
+
+
+    .input_list input {
+
+        padding-right: 10rem;
+
+    }
+
+    textarea {
+        padding: 0;
+
+    }
+
+    .img {
+        width: 80vw;
+        float: left;
+        position: absolute;
+        top: 120px;
+        margin: auto;
+        /* clear: left; */
+    }
+
+    .index_text {
+        width: 80vw;
+        float: right;
+        position: relative;
+        top: 300px;
+        /* clear: right; */
+        margin-top: 20px;
+        margin-bottom: 17rem;
+        margin-left: 30px;
+        /* text-align: center; */
+
+    }
+
+    .index_text button {
+        margin-left: 75px;
+
+    }
+
+    .index_text i {
+        margin-left: 15px;
+    }
+
+}
+
+/********** media query end **********/
