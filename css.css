@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 :root {
@@ -418,8 +423,11 @@ textarea {
     }
 
     .logo {
-        margin-left: 50px;
-        color: rebeccapurple;
+          /* margin-left: 50px; */
+    margin: 0 auto;
+    padding: 0 50px;
+    color: rebeccapurple;
+    width: 100%;
     }
 
     nav i {
@@ -469,13 +477,10 @@ textarea {
         width: 80vw;
         float: right;
         position: relative;
-        top: 300px;
-        /* clear: right; */
+        padding-top: 320px;
         margin-top: 20px;
-        margin-bottom: 17rem;
-        margin-left: 30px;
-        /* text-align: center; */
-
+        /* margin-bottom: 17rem; */
+        margin-left: 30px; 
     }
 
     .index_text button {
@@ -487,6 +492,13 @@ textarea {
         margin-left: 15px;
     }
 
+    .fa-solid, .fas {
+        font-weight: 900;
+        width: 100%;
+        position: relative;
+        left: 45%;
+    }
 }
+
 
 /********** media query end **********/
